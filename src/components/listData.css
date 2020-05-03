@@ -1,0 +1,40 @@
+.center-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.abs-search-icon {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+
+.searchContiner {
+    width: 20%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.drawerClass {
+    width: 200px;
+}
+
+.nav_items {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-center{
+    text-align: center;
+}
