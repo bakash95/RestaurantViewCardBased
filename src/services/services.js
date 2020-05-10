@@ -21,6 +21,6 @@ const apiCaller = async (url, method = 'GET', requestBody, headers = { "Content-
     return await response.json();
 }
 
-let basePath = 'http://localhost:3003/'
+let basePath = 'https://resviscard.herokuapp.com/'
 
 export default apiCaller;
